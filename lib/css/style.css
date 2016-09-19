@@ -1,1 +1,18 @@
 @charset "utf-8";
+
+h2.sub-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar.navbar-default #menu button {
+    margin-top: 8.5px;
+}
+
+.dropdown {
+    margin-right: 10px;
+ }
+
+.table div.dropdown {
+    display: inline-block;
+}

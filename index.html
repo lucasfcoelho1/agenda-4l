@@ -4,15 +4,102 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Forlogic: Agenda</title>
     <link rel="icon" type="image/png" href="http://www.forlogic.net/Content/images/Shared/grupofavicon16x16.png" />
 
     <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="lib/css/style.css" />
+
 </head>
 
 <body>
-    <h1>Agenda com cadastro de dados pessoais.</h1>
+    <header class="site-header container">
+        <div class="page-header">
+            <h1><i class="fa fa-book" aria-hidden="true"></i> Agenda</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ações <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Adicionar novo contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--</div>-->
+            <div class="container-fluid">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                            <th>Endereço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"> </span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Editar</a></li>
+                                        <li><a href="#">Excluir</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Visualizar</a></li>
+                                        <li><a href="#">Marcar como Favorito</a></li>
+                                    </ul>
+                                </div>
+                                Marcos Vinicius
+                            </td>
+                            <td>(12) 3456-7890</td>
+                            <td>Rua 23, nº 8</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"> </span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Editar</a></li>
+                                        <li><a href="#">Excluir</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Visualizar</a></li>
+                                        <li><a href="#">Marcar como Favorito</a></li>
+                                    </ul>
+                                </div>
+                                Fulano
+                            </td>
+                            <td>(00) 0000-0000</td>
+                            <td>Não Informado</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"> </span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Editar</a></li>
+                                        <li><a href="#">Excluir</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Visualizar</a></li>
+                                        <li><a href="#">Marcar como Favorito</a></li>
+                                    </ul>
+                                </div>
+                                Pessoa 1
+                            </td>
+                            <td>(12) 3456-7890</td>
+                            <td>Rua 23, nº 8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
 
     <script src="lib/js/jquery-3.1.0.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
