@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 12px;
+  height: 40px;
+  background-color: #eee;
+  text-align: center;
+  font-size: 0.825em;
+}
+
 h2.sub-header {
     font-size: 20px;
     font-weight: bold;
