@@ -1,14 +1,14 @@
-# Agenda Simples
+## Agenda Simples
 
-### Descrição
-Projeto de uma agenda com cadastro dos dados básico utilizando de ferramentas Front-end.
+#### Descrição
+Projeto de uma agenda com cadastro dos dados básico utilizando ferramentas de Front-end.
 
-### Linguagem Utilizadas
+#### Linguagens Utilizadas
  * HTML
  * JavaScript
  * CSS
 
-### Frameworks / IDEs / APIs References
+#### Frameworks / IDEs / APIs References
  * [Visual Studio Code]
  * [Bootstrap]
  * [jQuery]
