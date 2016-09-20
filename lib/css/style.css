@@ -27,3 +27,7 @@ h2.sub-header {
 .table div.dropdown {
     display: inline-block;
 }
+
+a.c-option {
+    color: #333;
+}
