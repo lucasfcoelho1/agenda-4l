@@ -29,7 +29,7 @@
                 <div class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ações <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a id="md-new" href="#" data-toggle="modal" data-target="#modal-data"><i class="fa fa-plus" aria-hidden="true"></i> Adicionar Novo</a></li>
+                        <li><a id="md-new" href="#" onclick="getModalData(null)"><i class="fa fa-plus" aria-hidden="true"></i> Adicionar Novo</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,34 +67,54 @@
                 </div>
                 <div class="modal-body">
                     <form name="frmData" action="#">
-                        <div class="form-group">
-                            <label for="cName">Nome: <span style="color: red;">*</span></label>
-                            <input type="text" class="form-control" id="cName" placeholder="Digite seu nome" required />
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label for="cName">Nome: <span style="color: red;">*</span></label>
+                                    <input type="text" class="form-control" id="cName" placeholder="Digite seu nome" required />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label for="cMail">Email: <span style="color: red;">*</span></label>
+                                    <input type="email" class="form-control" id="cMail" placeholder="Digite seu email" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="cMail">Email: <span style="color: red;">*</span></label>
-                            <input type="email" class="form-control" id="cMail" placeholder="Digite seu email" />
-                        </div>
-                        <div class="form-group">
-                            <label for="cPhone">Telefone: <span style="color: red;">*</span></label>
-                            <input type="tel" class="form-control" id="cPhone" data-mask="(00) 0000-0000" placeholder="Digite seu telefone" />
-                        </div>
-                        <div class="form-group">
-                            <label for="cGender">Sexo:</label>
-                            <select id="cGender" class="form-control">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label for="cPhone">Telefone: <span style="color: red;">*</span></label>
+                                    <input type="tel" class="form-control" id="cPhone" data-mask="(00) 0000-0000" placeholder="Digite seu telefone" />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label for="cGender">Sexo:</label>
+                                    <select id="cGender" class="form-control">
                                 <option value="select">Selecione...</option>
                                 <option value="masc">Masculino</option>
                                 <option value="fem">Feminino</option>
                                 <option value="other">Outro</option>
                             </select>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="cAddress">Endereço:</label>
-                            <input type="text" class="form-control" id="cAddress" placeholder="Digite seu endereço" />
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="cAddress">Endereço:</label>
+                                    <input type="text" class="form-control" id="cAddress" placeholder="Digite seu endereço" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="cObs">Observações:</label>
-                            <textarea class="form-control" id="cObs" placeholder="Digite sua mensagem" style="resize: none;"></textarea>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="cObs">Observações:</label>
+                                    <textarea class="form-control" id="cObs" placeholder="Digite sua mensagem" style="resize: none;"></textarea>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
