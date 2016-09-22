@@ -28,6 +28,16 @@ h2.sub-header {
     display: inline-block;
 }
 
-a.c-option {
+.c-option a {
     color: #333;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.c-option a:first {
+    margin: 0 10px;
+}
+
+.c-option a:last-child {
+    margin: 0;
 }
