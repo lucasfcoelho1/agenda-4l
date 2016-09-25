@@ -26,8 +26,16 @@
     <main class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <div class="dropdown">
-                    <a id="btnNew" class="btn btn-default" onclick="getModalData(null)"><i class="fa fa-plus" aria-hidden="true"></i> Adicionar Novo</a>
+                <div class="row">
+                    <div class="text-left col-md-6">
+                        <a id="btnNew" class="btn btn-success" onclick="getModalData(null)"><i class="fa fa-plus" aria-hidden="true"></i> Adicionar Novo</a>
+                    </div>
+                    <div class="text-right col-md-offset-2 col-md-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Pesquise por...">
+                            <span class="input-group-btn"><button class="btn btn-default" type="button">Buscar</button></span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -90,11 +98,11 @@
                                 <div class="form-group">
                                     <label for="cGender">Sexo:</label>
                                     <select id="cGender" class="form-control">
-                                <option value="select">Selecione...</option>
-                                <option value="masc">Masculino</option>
-                                <option value="fem">Feminino</option>
-                                <option value="other">Outro</option>
-                            </select>
+                                        <option value="select">Selecione...</option>
+                                        <option value="fem">Feminino</option>
+                                        <option value="masc">Masculino</option>
+                                        <option value="other">Outro</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +141,7 @@
                     <h4 class="modal-title" id="mv-label">Visualizar</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Listar os dados aqui</p>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
