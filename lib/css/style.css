@@ -42,10 +42,18 @@ h2.sub-header {
     margin: 0;
 }
 
-.fa.fa-file-text {
+.fa.fa-file-text, .fa.fa-file-text-o {
     color: rgb(0, 123, 182);
 }
 
-.fa.fa-star {
+.fa.fa-star, .fa.fa-star-o {
     color: #FFD700;
+}
+
+.fa.fa-pencil-square-o {
+    color: #008000;
+}
+
+.fa.fa-trash {
+    color: #FF0000;
 }
