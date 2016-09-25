@@ -70,6 +70,10 @@ h2.sub-header {
     padding-right: 10px;
 }
 
+.panel.panel-default {
+    padding-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
     #panel-menu {
         padding: 0 15px;
