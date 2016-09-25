@@ -41,3 +41,11 @@ h2.sub-header {
 .c-option a:last-child {
     margin: 0;
 }
+
+.fa.fa-file-text {
+    color: rgb(0, 123, 182);
+}
+
+.fa.fa-star {
+    color: #FFD700;
+}
