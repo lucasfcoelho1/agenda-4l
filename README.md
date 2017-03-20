@@ -1,28 +1,27 @@
 ## Agenda Simples
 
-#### Descrição
+### Descrição
 Projeto de uma agenda com cadastro dos dados básico utilizando ferramentas de Front-end.
 
-#### Linguagens Utilizadas
+### Linguagens Utilizadas
  * HTML
  * JavaScript
  * CSS
 
-#### Frameworks / IDEs / APIs References
+### Frameworks / IDEs / APIs References
  * [Visual Studio Code]
  * [Bootstrap]
  * [jQuery]
  * [jQuery Mask]
  * [Font Awesome]
  
+### Licença
 
-#### Licença
-
-Todos os códigos disponibilizados neste repositório estão sob a licença *[Creative Commons (CC BY 4.0)]* 
+Os arquivos e códigos disponibilizados neste repositório estão sob a licença **[MIT]**, que se encontra na raíz do repositório, ou pela licença especificada dentro do arquivo. 
 
 ---
 
-*por [Marcos Vinicius Jacobs] / [@mvmjacobs]*
+##### *por [Marcos Vinicius Jacobs]* 
 
 [Visual Studio Code]: https://code.visualstudio.com/
 [Bootstrap]: http://getbootstrap.com.br/
@@ -30,6 +29,6 @@ Todos os códigos disponibilizados neste repositório estão sob a licença *[Cr
 [jQuery Mask]: http://igorescobar.github.io/jQuery-Mask-Plugin/
 [Font Awesome]: http://fontawesome.io/
 
-[Creative Commons (CC BY 4.0)]: https://creativecommons.org/licenses/by/4.0/
+[MIT]: https://github.com/mvmjacobs/Agenda4L/blob/master/README.md
+
 [Marcos Vinicius Jacobs]: https://www.linkedin.com/in/mvmjacobs
-[@mvmjacobs]: https://www.twitter.com/mvmjacobs
